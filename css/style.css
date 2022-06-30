@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400&display=swap');
+
+h1,h2,h3,nav{
+	font-family: 'Oswald', sans-serif;
+	overflow: hidden;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	padding-top: 8px;
+}
+
+header{
+	background-color: white;
+}
+
+main{
+	padding: 15px;
+	background-color: white;
+}
+
+.tamLogo{
+	width: 32px;
+	height: 30px;
+}
+
+.tamIconos{
+	width: 25px;
+	height: 25px;
+}
+
+.historiaFondo{
+	background-image: url(img/historia.jpg);
+}
+
+.bg-naranja{
+	background-color: orange;
+}
+
+.bg-blanco{
+	background-color: white;
+}
+
+/* Botones redes sociales Nav y Footer -----*/
+.logoFooter{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.contenedorFooter{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contFooter{
+	margin-top: 25px;
+	padding: 10px;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+}
+
+	.logoFooter img{
+		width: 4.5em;
+	}
+
+.redes{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.botonRedes{
+	padding: 3px;
+	cursor: pointer;
+}
+
+	.botonRedes img{
+		width: 80%;
+	}
+
+.botonRedesFooter{
+	padding: 3px;
+	cursor: pointer;
+		margin-top: 25px;
+}
+
+	.botonRedesFooter img{
+		width: 80%;
+	}
+/*------------------------------*/
+
+
+
+@media only screen and (min-width: 768px){
+
+	body{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgb(30,30,30);
+	}
+
+	main{
+		padding: 25px;
+	}
+
+	.centrar{
+		text-align: center;
+	}
+
+	.bloqueFooter{
+		margin-top: 40px;
+		padding: 20px;
+		height: 300px;
+	}
+
+	.contenedorFooter{
+		height: 100%;
+		padding: 45px 25px;
+		padding-top: 0px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.centrarContenido{
+		justify-content: space-between;
+	}
+
+	.contFooter{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.logoFooter{
+		margin-top: 0px;
+	}
+}
